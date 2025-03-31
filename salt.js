@@ -17,7 +17,7 @@ function verifyPassword(inputPassword, storedHash, salt) {
 }
 
 // Example Usage
-const userPassword = "password123";
+const userPassword = "password";
 const { hashedPassword, salt } = hashPassword(userPassword);
 
 // Simulate user input
